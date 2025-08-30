@@ -1,3 +1,228 @@
+# Quantum Landpark - Landing Page Project
+
+## 📋 Project Overview
+**Quantum Landpark** adalah proyek landing page statis untuk wisata alam dan petualangan menggunakan Laravel TALL Stack. Website ini menampilkan berbagai aktivitas outdoor seperti glamping, agro wisata, peternakan, camping, ATV, rafting, dan aktivitas petualangan lainnya.
+
+**Current Status:** 🚧 Landing Page Statis (In Progress)
+
+## 🛠️ Tech Stack
+
+### Backend Framework
+- **Laravel**: v12.21.0 (Latest)
+- **PHP**: 8.3.22
+- **Database**: SQLite (development)
+
+### Frontend Stack (TALL)
+- **Tailwind CSS**: v4.1.11 (Modern utility-first CSS framework)
+- **Alpine.js**: Included with Livewire (Lightweight JavaScript framework)
+- **Livewire**: v3.6.4 (Full-stack framework for Laravel)
+- **Laravel Volt**: v1.7.1 (Single-file components for Livewire)
+
+### Build Tools & Dependencies
+- **Vite**: v7.0.4 (Fast build tool)
+- **Laravel Vite Plugin**: v2.0
+- **Autoprefixer**: v10.4.20
+- **Axios**: v1.7.4
+
+### Animation & UI Libraries
+- **GSAP (GreenSock)**: v3.12.2
+  - ScrollTrigger plugin
+  - ScrollToPlugin
+  - TextPlugin
+  - SplitText
+  - MorphSVGPlugin
+
+### Development Tools
+- **Laravel Boost**: v1.0 (MCP Server untuk development)
+- **Laravel Pint**: v1.24.0 (Code formatter)
+- **Laravel Sail**: v1.44.0 (Docker development environment)
+- **Laravel Pail**: v1.2.2 (Log viewer)
+
+## 🎨 Design System
+
+### Color Palette
+Menggunakan earth-tone color scheme yang warm dan natural:
+
+```css
+/* Primary Colors */
+--color-primary-50: #FEF9E1   /* Light cream */
+--color-primary-100: #F9F2C9  /* Lighter variant */  
+--color-primary-200: #F4EBB1  /* Light variant */
+--color-primary-300: #E5D0AC  /* Medium beige */
+--color-primary-400: #D6BC93  /* Medium variant */
+--color-primary-500: #C7A87A  /* Darker beige */
+--color-primary-600: #A31D1D  /* Dark red (main accent) */
+--color-primary-700: #871818  /* Darker red variant */
+--color-primary-800: #6D2323  /* Very dark red */
+--color-primary-900: #571C1C  /* Darkest red variant */
+```
+
+### Typography
+- **Font Family**: 'Instrument Sans' (Modern sans-serif)
+- **Font Weights**: 400, 500, 600, 700
+
+## 🚀 Features Implemented
+
+### ✅ Modern UI/UX
+- **Responsive Design**: Mobile-first approach dengan Tailwind CSS
+- **Glassmorphism Effects**: Modern glass-like design pada activity cards
+- **Smooth Animations**: GSAP-powered animations dengan performance optimization
+- **Custom CSS Effects**:
+  - Glow effects dengan hover states
+  - Magnetic button interactions
+  - Floating animations untuk hero elements
+  - Particle system backgrounds
+
+### ✅ Interactive Components
+- **Hero Section**: Floating animation menggantikan rotation
+- **Navigation**: Fixed navbar dengan smooth scroll
+- **Activity Cards**: Hover effects dengan glassmorphism
+- **Infinite Testimonial Carousel**: Auto-play dengan seamless looping
+- **Gallery Lightbox**: Modal system untuk gambar
+- **Contact Forms**: Interactive form elements
+
+### ✅ Animation System
+- **Scroll-triggered animations**: Menggunakan GSAP ScrollTrigger
+- **Text reveal animations**: Split text dengan staggered entrance
+- **Magnetic hover effects**: Interactive button behaviors
+- **Smooth section transitions**: Tanpa overlap atau jarring jumps
+- **Performance optimized**: Will-change properties untuk smooth rendering
+
+## 📁 File Structure
+
+### Key Files Modified
+```
+resources/
+├── css/
+│   └── app.css                 # Tailwind config + custom CSS effects
+├── js/
+│   └── app.js                  # GSAP animations & interactive features
+└── views/
+    ├── layouts/
+    │   └── landing.blade.php   # Base layout dengan GSAP libraries
+    └── welcome.blade.php       # Main landing page content
+```
+
+### Asset Management
+- **Build System**: Vite dengan hot reload
+- **Asset Compilation**: `npm run build` untuk production
+- **Development**: `npm run dev` atau `composer run dev`
+
+## 🎯 Recent Updates & Fixes
+
+### Color System Migration
+- ✅ Migrated from default red palette to custom earth-tone scheme
+- ✅ Fixed Tailwind v4 color configuration format issues
+- ✅ Ensured text readability across all color combinations
+
+### Animation Improvements
+- ✅ Removed jarring rotation from hero image
+- ✅ Implemented subtle floating effects
+- ✅ Added magnetic hover interactions
+- ✅ Created particle system backgrounds
+
+### UI/UX Enhancements
+- ✅ Fixed CSS class conflicts (flex/hidden in lightbox)
+- ✅ Replaced opaque overlays with glassmorphism
+- ✅ Eliminated section overlap issues
+- ✅ Implemented smooth color transitions between sections
+
+### Interactive Features
+- ✅ Created infinite testimonial carousel
+- ✅ Added auto-play functionality with pause on hover
+- ✅ Implemented card cloning for seamless looping
+- ✅ Added entrance animations for testimonial cards
+
+## 🏃‍♂️ Development Commands
+
+### Frontend Development
+```bash
+# Start development server with hot reload
+npm run dev
+
+# Build for production
+npm run build
+
+# Start Laravel + Vite + Queue (recommended)
+composer run dev
+```
+
+### Laravel Commands
+```bash
+# Code formatting
+vendor/bin/pint
+
+# Start Laravel server
+php artisan serve
+
+# Clear caches
+php artisan config:clear
+php artisan cache:clear
+```
+
+## 🎯 Current Progress Status
+
+### ✅ Completed Features
+- [x] Color palette implementation
+- [x] Hero section dengan floating animations
+- [x] Activity cards dengan glassmorphism
+- [x] Navigation system
+- [x] Gallery lightbox
+- [x] Contact forms
+- [x] Infinite testimonial carousel
+- [x] Responsive design
+- [x] GSAP animation system
+- [x] Smooth section transitions
+
+### 🚧 In Progress
+- Landing page statis optimization
+- Performance fine-tuning
+- Cross-browser testing
+
+### 📋 Next Phase Ideas
+- [ ] Admin panel integration
+- [ ] Dynamic content management
+- [ ] Booking system
+- [ ] Photo gallery CMS
+- [ ] Blog/news section
+- [ ] Multi-language support
+- [ ] SEO optimization
+- [ ] Analytics integration
+
+## 🐛 Known Issues & Solutions
+
+### Fixed Issues
+- ✅ **Tailwind v4 Color Format**: Fixed hex color configuration
+- ✅ **CSS Class Conflicts**: Resolved flex/hidden conflicts in lightbox
+- ✅ **Hero Image Rotation**: Replaced with floating effects
+- ✅ **Section Overlaps**: Eliminated jarring transitions
+- ✅ **Activity Card Overlays**: Implemented glassmorphism
+
+### Performance Notes
+- GSAP animations use `will-change` untuk optimal performance
+- Images menggunakan lazy loading
+- CSS animations menggunakan GPU acceleration
+- Infinite carousel menggunakan efficient cloning strategy
+
+## 📱 Responsive Breakpoints
+- **Mobile**: < 768px
+- **Tablet**: 768px - 1024px  
+- **Desktop**: > 1024px
+
+## 🎨 Animation Philosophy
+- **Subtle & Purposeful**: Animations enhance UX tanpa distraction
+- **Performance First**: Hardware acceleration untuk smooth 60fps
+- **Accessibility**: Respect prefers-reduced-motion
+- **Progressive Enhancement**: Core functionality works tanpa JavaScript
+
+---
+
+**Last Updated**: August 30, 2025  
+**Project Phase**: Landing Page Statis  
+**Build Status**: ✅ Production Ready
+
+---
+
 <laravel-boost-guidelines>
 === foundation rules ===
 
@@ -9,13 +234,13 @@ The Laravel Boost guidelines are specifically curated by Laravel maintainers for
 This application is a Laravel application and its main Laravel ecosystems package & versions are below. You are an expert with them all. Ensure you abide by these specific packages & versions.
 
 - php - 8.3.22
-- laravel/framework (LARAVEL) - v12
-- laravel/prompts (PROMPTS) - v0
-- livewire/livewire (LIVEWIRE) - v3
-- livewire/volt (VOLT) - v1
-- laravel/pint (PINT) - v1
-- laravel/sail (SAIL) - v1
-- tailwindcss (TAILWINDCSS) - v4
+- laravel/framework (LARAVEL) - v12.21.0
+- laravel/prompts (PROMPTS) - v0.3.6
+- livewire/livewire (LIVEWIRE) - v3.6.4
+- livewire/volt (VOLT) - v1.7.1
+- laravel/pint (PINT) - v1.24.0
+- laravel/sail (SAIL) - v1.44.0
+- tailwindcss (TAILWINDCSS) - v4.1.11
 
 
 ## Conventions
