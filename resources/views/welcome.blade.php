@@ -71,10 +71,13 @@
             </svg>
         </div>
 
+        <!-- Particle Container -->
+        <div class="particle-container"></div>
+        
         <div class="hero-content relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-32 text-center">
             <h1 class="text-5xl sm:text-7xl font-bold text-white dark:text-primary-50 mb-8 leading-tight drop-shadow-lg">
-                <span class="typing-text block text-white/95">Selamat Datang di</span>
-                <span class="bg-gradient-to-r from-primary-600 via-primary-700 to-primary-800 bg-clip-text text-transparent block mt-4">Quantum Landpark</span>
+                <span class="split-text block text-white/95">Selamat Datang di</span>
+                <span class="morphing-text bg-gradient-to-r from-primary-600 via-primary-700 to-primary-800 bg-clip-text text-transparent block mt-4">Quantum Landpark</span>
             </h1>
             <p class="text-xl sm:text-2xl text-white/90 dark:text-gray-200 mb-12 max-w-4xl mx-auto leading-relaxed drop-shadow-lg">
                 Destinasi wisata alam terlengkap dengan pengalaman tak terlupakan. Nikmati glamping, agro wisata, petualangan ATV, rafting, dan berbagai aktivitas outdoor di tengah keindahan alam yang menakjubkan.
@@ -101,13 +104,13 @@
             </div>
             
             <div class="flex flex-col sm:flex-row gap-6 justify-center items-center">
-                <a href="#activities" class="group bg-gradient-to-r from-primary-600 to-primary-700 hover:from-primary-700 hover:to-primary-800 text-white px-10 py-5 rounded-xl font-bold text-lg shadow-2xl hover:shadow-3xl transform hover:-translate-y-2 transition-all duration-300">
+                <a href="#activities" class="magnetic-button liquid-button group bg-gradient-to-r from-primary-600 to-primary-700 hover:from-primary-700 hover:to-primary-800 text-white px-10 py-5 rounded-xl font-bold text-lg shadow-2xl hover:shadow-3xl transform hover:-translate-y-2 transition-all duration-500 pulse-glow">
                     Jelajahi Aktivitas
                     <svg class="inline-block ml-3 w-6 h-6 group-hover:translate-x-2 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
                     </svg>
                 </a>
-                <a href="#gallery" class="group border-3 border-white text-white hover:bg-primary-50 hover:text-primary-600 px-10 py-5 rounded-xl font-bold text-lg transition-all duration-300 bg-white/10 backdrop-blur-sm shadow-lg hover:shadow-xl">
+                <a href="#gallery" class="magnetic-button group relative border-2 border-primary-300/60 text-white hover:bg-primary-50 hover:text-primary-800 hover:border-primary-400 px-10 py-5 rounded-xl font-bold text-lg transition-all duration-500 bg-primary-600/20 backdrop-blur-md shadow-2xl hover:shadow-primary-600/30 glow-effect transform hover:scale-105">
                     Lihat Galeri
                     <svg class="inline-block ml-3 w-6 h-6 group-hover:scale-110 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
@@ -125,7 +128,7 @@
     </section>
 
     <!-- Activities Section -->
-    <section id="activities" class="fade-in-section py-24 bg-gradient-to-br from-primary-50 via-primary-100 to-primary-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900 relative">
+    <section id="activities" class="fade-in-section py-32 bg-gradient-to-br from-primary-50/60 via-primary-100/40 to-primary-50/80 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900 relative">
         <!-- Wave Transition from Hero -->
         <div class="absolute top-0 left-0 w-full overflow-hidden">
             <svg class="relative block w-full h-16" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
@@ -144,7 +147,7 @@
             
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
                 <!-- Glamping -->
-                <div class="activity-card group bg-primary-50 dark:bg-gray-800 rounded-2xl shadow-xl hover:shadow-2xl border border-primary-200 dark:border-primary-900/20 overflow-hidden transition-all duration-300">
+                <div class="activity-card group glass-effect rounded-2xl shadow-xl hover:shadow-2xl border border-primary-300/30 dark:border-primary-800/30 overflow-hidden transition-all duration-500 backdrop-blur-xl bg-white/10 dark:bg-gray-800/20">
                     <div class="relative h-48 overflow-hidden">
                         <img src="https://images.unsplash.com/photo-1504851149312-7a075b496cc5?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3" alt="Glamping" class="activity-image w-full h-full object-cover transition-transform duration-300 group-hover:scale-110">
                         <div class="absolute inset-0 bg-gradient-to-t from-primary-600/60 to-transparent">
@@ -169,7 +172,7 @@
                 </div>
 
                 <!-- Agro Wisata -->
-                <div class="activity-card group bg-primary-50 dark:bg-gray-800 rounded-2xl shadow-xl hover:shadow-2xl border border-primary-200 dark:border-primary-900/20 overflow-hidden transition-all duration-300">
+                <div class="activity-card group glass-effect rounded-2xl shadow-xl hover:shadow-2xl border border-primary-300/30 dark:border-primary-800/30 overflow-hidden transition-all duration-500 backdrop-blur-xl bg-white/10 dark:bg-gray-800/20">
                     <div class="relative h-48 overflow-hidden">
                         <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3" alt="Agro Wisata" class="activity-image w-full h-full object-cover transition-transform duration-300 group-hover:scale-110">
                         <div class="absolute inset-0 bg-gradient-to-t from-green-500/60 to-transparent">
@@ -193,7 +196,7 @@
                 </div>
 
                 <!-- Wisata Peternakan -->
-                <div class="activity-card group bg-primary-50 dark:bg-gray-800 rounded-2xl shadow-xl hover:shadow-2xl border border-primary-200 dark:border-primary-900/20 overflow-hidden transition-all duration-300">
+                <div class="activity-card group glass-effect rounded-2xl shadow-xl hover:shadow-2xl border border-primary-300/30 dark:border-primary-800/30 overflow-hidden transition-all duration-500 backdrop-blur-xl bg-white/10 dark:bg-gray-800/20">
                     <div class="relative h-48 overflow-hidden">
                         <img src="https://images.unsplash.com/photo-1518521669107-23a8825c4e26?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3" alt="Farm Tourism" class="activity-image w-full h-full object-cover transition-transform duration-300 group-hover:scale-110">
                         <div class="absolute inset-0 bg-gradient-to-t from-primary-600/60 to-transparent">
@@ -217,7 +220,7 @@
                 </div>
 
                 <!-- Camping -->
-                <div class="activity-card group bg-primary-50 dark:bg-gray-800 rounded-2xl shadow-xl hover:shadow-2xl border border-primary-200 dark:border-primary-900/20 overflow-hidden transition-all duration-300">
+                <div class="activity-card group glass-effect rounded-2xl shadow-xl hover:shadow-2xl border border-primary-300/30 dark:border-primary-800/30 overflow-hidden transition-all duration-500 backdrop-blur-xl bg-white/10 dark:bg-gray-800/20">
                     <div class="relative h-48 overflow-hidden">
                         <img src="https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3" alt="Camping" class="activity-image w-full h-full object-cover transition-transform duration-300 group-hover:scale-110">
                         <div class="absolute inset-0 bg-gradient-to-t from-primary-600/60 to-transparent">
@@ -242,7 +245,7 @@
                 </div>
 
                 <!-- ATV & Motor Cross -->
-                <div class="activity-card group bg-primary-50 dark:bg-gray-800 rounded-2xl shadow-xl hover:shadow-2xl border border-primary-200 dark:border-primary-900/20 overflow-hidden transition-all duration-300">
+                <div class="activity-card group glass-effect rounded-2xl shadow-xl hover:shadow-2xl border border-primary-300/30 dark:border-primary-800/30 overflow-hidden transition-all duration-500 backdrop-blur-xl bg-white/10 dark:bg-gray-800/20">
                     <div class="relative h-48 overflow-hidden">
                         <img src="https://images.unsplash.com/photo-1544966503-7cc5ac882d5f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3" alt="ATV Adventure" class="activity-image w-full h-full object-cover transition-transform duration-300 group-hover:scale-110">
                         <div class="absolute inset-0 bg-gradient-to-t from-orange-500/60 to-transparent">
@@ -266,7 +269,7 @@
                 </div>
 
                 <!-- Cafe & Billiard -->
-                <div class="activity-card group bg-primary-50 dark:bg-gray-800 rounded-2xl shadow-xl hover:shadow-2xl border border-primary-200 dark:border-primary-900/20 overflow-hidden transition-all duration-300">
+                <div class="activity-card group glass-effect rounded-2xl shadow-xl hover:shadow-2xl border border-primary-300/30 dark:border-primary-800/30 overflow-hidden transition-all duration-500 backdrop-blur-xl bg-white/10 dark:bg-gray-800/20">
                     <div class="relative h-48 overflow-hidden">
                         <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3" alt="Cafe & Billiard" class="activity-image w-full h-full object-cover transition-transform duration-300 group-hover:scale-110">
                         <div class="absolute inset-0 bg-gradient-to-t from-primary-600/60 to-transparent">
@@ -290,7 +293,7 @@
                 </div>
 
                 <!-- Rafting -->
-                <div class="activity-card group bg-primary-50 dark:bg-gray-800 rounded-2xl shadow-xl hover:shadow-2xl border border-primary-200 dark:border-primary-900/20 overflow-hidden transition-all duration-300">
+                <div class="activity-card group glass-effect rounded-2xl shadow-xl hover:shadow-2xl border border-primary-300/30 dark:border-primary-800/30 overflow-hidden transition-all duration-500 backdrop-blur-xl bg-white/10 dark:bg-gray-800/20">
                     <div class="relative h-48 overflow-hidden">
                         <img src="https://images.unsplash.com/photo-1544551763-46a013bb70d5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3" alt="Rafting Adventure" class="activity-image w-full h-full object-cover transition-transform duration-300 group-hover:scale-110">
                         <div class="absolute inset-0 bg-gradient-to-t from-blue-500/60 to-transparent">
@@ -314,7 +317,7 @@
                 </div>
 
                 <!-- Riverside Cafe -->
-                <div class="activity-card group bg-primary-50 dark:bg-gray-800 rounded-2xl shadow-xl hover:shadow-2xl border border-primary-200 dark:border-primary-900/20 overflow-hidden transition-all duration-300">
+                <div class="activity-card group glass-effect rounded-2xl shadow-xl hover:shadow-2xl border border-primary-300/30 dark:border-primary-800/30 overflow-hidden transition-all duration-500 backdrop-blur-xl bg-white/10 dark:bg-gray-800/20">
                     <div class="relative h-48 overflow-hidden">
                         <img src="https://images.unsplash.com/photo-1551632811-561732d1e306?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3" alt="Riverside Cafe" class="activity-image w-full h-full object-cover transition-transform duration-300 group-hover:scale-110">
                         <div class="absolute inset-0 bg-gradient-to-t from-primary-600/60 to-transparent">
@@ -341,7 +344,7 @@
     </section>
 
     <!-- Gallery Section -->
-    <section id="gallery" class="fade-in-section py-24 bg-gradient-to-br from-primary-50 via-primary-100 to-primary-50 dark:bg-gray-900 relative">
+    <section id="gallery" class="fade-in-section py-32 bg-gradient-to-br from-primary-100/40 via-white/80 to-primary-50/60 dark:bg-gray-900 relative">
         <!-- Wave Transition -->
         <div class="absolute top-0 left-0 w-full overflow-hidden">
             <svg class="relative block w-full h-16" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
@@ -437,7 +440,7 @@
     </section>
 
     <!-- Testimonials Section -->
-    <section id="testimonials" class="fade-in-section py-24 bg-gradient-to-br from-primary-100 via-primary-50 to-primary-100 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900 relative">
+    <section id="testimonials" class="fade-in-section py-32 bg-gradient-to-br from-primary-50/50 via-primary-100/30 to-white/90 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900 relative overflow-hidden">
         <!-- Wave Transition -->
         <div class="absolute top-0 left-0 w-full overflow-hidden">
             <svg class="relative block w-full h-16" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
@@ -454,10 +457,11 @@
                 </p>
             </div>
             
-            <!-- Modern Testimonials Grid -->
-            <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+            <!-- Infinite Testimonials Carousel -->
+            <div class="testimonial-carousel overflow-hidden relative max-w-7xl mx-auto">
+                <div class="testimonial-track flex gap-6">
                 <!-- Testimonial 1 -->
-                <div class="testimonial-card bg-primary-50 dark:bg-gray-800 rounded-3xl p-8 shadow-xl border border-primary-200 dark:border-primary-900/20 transform transition-all duration-500 hover:-translate-y-2 hover:shadow-2xl">
+                <div class="testimonial-card glass-effect rounded-3xl p-8 shadow-xl border border-primary-300/30 dark:border-primary-800/30 transform transition-all duration-500 hover:-translate-y-2 hover:shadow-2xl backdrop-blur-xl bg-white/10 dark:bg-gray-800/20 flex-shrink-0 w-96">
                     <div class="flex items-center mb-6">
                         <img src="https://images.unsplash.com/photo-1494790108755-2616b612b786?q=80&w=150&auto=format&fit=crop&ixlib=rb-4.0.3" alt="Sari Dewi" class="w-16 h-16 rounded-full object-cover mr-4 border-4 border-primary-300">
                         <div>
@@ -478,7 +482,7 @@
                 </div>
 
                 <!-- Testimonial 2 -->
-                <div class="testimonial-card bg-primary-50 dark:bg-gray-800 rounded-3xl p-8 shadow-xl border border-primary-200 dark:border-primary-900/20 transform transition-all duration-500 hover:-translate-y-2 hover:shadow-2xl">
+                <div class="testimonial-card glass-effect rounded-3xl p-8 shadow-xl border border-primary-300/30 dark:border-primary-800/30 transform transition-all duration-500 hover:-translate-y-2 hover:shadow-2xl backdrop-blur-xl bg-white/10 dark:bg-gray-800/20 flex-shrink-0 w-96">
                     <div class="flex items-center mb-6">
                         <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=150&auto=format&fit=crop&ixlib=rb-4.0.3" alt="Ahmad Rizki" class="w-16 h-16 rounded-full object-cover mr-4 border-4 border-primary-300">
                         <div>
@@ -499,7 +503,7 @@
                 </div>
 
                 <!-- Testimonial 3 -->
-                <div class="testimonial-card bg-primary-50 dark:bg-gray-800 rounded-3xl p-8 shadow-xl border border-primary-200 dark:border-primary-900/20 transform transition-all duration-500 hover:-translate-y-2 hover:shadow-2xl">
+                <div class="testimonial-card glass-effect rounded-3xl p-8 shadow-xl border border-primary-300/30 dark:border-primary-800/30 transform transition-all duration-500 hover:-translate-y-2 hover:shadow-2xl backdrop-blur-xl bg-white/10 dark:bg-gray-800/20 flex-shrink-0 w-96">
                     <div class="flex items-center mb-6">
                         <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=150&auto=format&fit=crop&ixlib=rb-4.0.3" alt="Dina Puspita" class="w-16 h-16 rounded-full object-cover mr-4 border-4 border-primary-300">
                         <div>
@@ -518,12 +522,55 @@
                         "Quantum Landpark pilihan tepat untuk kegiatan team building kantor kami. Area outdoor yang luas, aktivitas yang beragam, dan fasilitas yang memadai."
                     </blockquote>
                 </div>
+
+                <!-- Tambahan Testimonial Cards untuk Infinite Effect -->
+                <div class="testimonial-card glass-effect rounded-3xl p-8 shadow-xl border border-primary-300/30 dark:border-primary-800/30 transform transition-all duration-500 hover:-translate-y-2 hover:shadow-2xl backdrop-blur-xl bg-white/10 dark:bg-gray-800/20 flex-shrink-0 w-96">
+                    <div class="flex items-center mb-6">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=150&auto=format&fit=crop&ixlib=rb-4.0.3" alt="Budi Santoso" class="w-16 h-16 rounded-full object-cover mr-4 border-4 border-primary-300">
+                        <div>
+                            <h4 class="font-bold text-xl text-gray-900 dark:text-white">Budi Santoso</h4>
+                            <p class="text-primary-600 font-medium">Adventure Seeker</p>
+                        </div>
+                    </div>
+                    <div class="flex text-yellow-400 mb-4">
+                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                    </div>
+                    <blockquote class="text-gray-700 dark:text-gray-300 leading-relaxed italic">
+                        "Rafting di sini menantang adrenalin! Guide yang profesional membuat pengalaman jadi aman dan menyenangkan. Pasti akan balik lagi!"
+                    </blockquote>
+                </div>
+
+                <div class="testimonial-card glass-effect rounded-3xl p-8 shadow-xl border border-primary-300/30 dark:border-primary-800/30 transform transition-all duration-500 hover:-translate-y-2 hover:shadow-2xl backdrop-blur-xl bg-white/10 dark:bg-gray-800/20 flex-shrink-0 w-96">
+                    <div class="flex items-center mb-6">
+                        <img src="https://images.unsplash.com/photo-1534751516642-a1af1ef26a56?q=80&w=150&auto=format&fit=crop&ixlib=rb-4.0.3" alt="Maya Sari" class="w-16 h-16 rounded-full object-cover mr-4 border-4 border-primary-300">
+                        <div>
+                            <h4 class="font-bold text-xl text-gray-900 dark:text-white">Maya Sari</h4>
+                            <p class="text-primary-600 font-medium">Food Blogger</p>
+                        </div>
+                    </div>
+                    <div class="flex text-yellow-400 mb-4">
+                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                    </div>
+                    <blockquote class="text-gray-700 dark:text-gray-300 leading-relaxed italic">
+                        "Kuliner di riverside cafe sangat lezat! Sambil menikmati makanan bisa melihat pemandangan sungai yang indah. Suasana yang sangat romantis!"
+                    </blockquote>
+                </div>
+
+                </div>
             </div>
         </div>
     </section>
 
     <!-- Contact CTA Section -->
-    <section id="contact" class="fade-in-section py-24 bg-gradient-to-r from-primary-600 via-primary-700 to-primary-800 dark:from-primary-700 dark:via-primary-800 dark:to-primary-900 relative overflow-hidden">
+    <section id="contact" class="fade-in-section py-32 bg-gradient-to-br from-primary-600 via-primary-700 to-primary-800 dark:from-primary-700 dark:via-primary-800 dark:to-primary-900 relative overflow-hidden">
         <!-- Wave Transition -->
         <div class="absolute top-0 left-0 w-full overflow-hidden">
             <svg class="relative block w-full h-16" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
@@ -682,7 +729,7 @@
     </footer>
 
     <!-- Lightbox Modal -->
-    <div class="lightbox fixed inset-0 bg-black/90 backdrop-blur-sm flex items-center justify-center z-50 hidden">
+    <div class="lightbox fixed inset-0 bg-black/90 backdrop-blur-sm flex items-center justify-center z-50 opacity-0 pointer-events-none transition-all duration-300">
         <div class="relative max-w-4xl max-h-screen p-4">
             <img class="lightbox-image max-w-full max-h-full object-contain rounded-lg shadow-2xl" src="" alt="Gallery Image">
             <button class="lightbox-close absolute top-4 right-4 text-white hover:text-primary-400 transition-colors">
